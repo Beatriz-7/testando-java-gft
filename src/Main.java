@@ -2,6 +2,7 @@ import desafios.Macaco;
 import desafios.NumeroReverso;
 import desafios.funcionarios.Consultor;
 import desafios.funcionarios.Vendedor;
+import desafios.jogo.JogoCraps;
 
 public class Main {
 
@@ -32,5 +33,7 @@ public class Main {
 
         Consultor consultor = new Consultor("Joana", 845746854, 7000d, 7);
         System.out.println(consultor.calcularSalario());
+
+        JogoCraps.jogar();
     }
 }
